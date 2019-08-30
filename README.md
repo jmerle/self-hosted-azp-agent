@@ -2,7 +2,7 @@
 
 ![MicroBadger Size](https://img.shields.io/microbadger/image-size/jmerle/self-hosted-azp-agent)
 
-This repository contains the code to build a Docker image which runs a self-hosted Azure Pipelines agent that I use in my private projects. The goal is for the image to be as identical to the hosted Ubuntu 16.04 agent as possible, while only including the tools I need so the image size doesn't become enormous. I do that by manually selecting tools to install from the [microsoft/azure-pipelines-image-generation](https://github.com/microsoft/azure-pipelines-image-generation) repository, which contains the code that is used to provision the hosted agents. The expected environment variables for this image are specified [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops#environment-variables).
+This repository contains the code to build a Docker image which runs a self-hosted Azure Pipelines agent that I use in my private projects. The goal is for the image to be as identical to the hosted Ubuntu 16.04 agent as possible, while only including the tools I need so the image size doesn't become enormous. I do that by manually selecting tools to install from the [microsoft/azure-pipelines-image-generation](https://github.com/microsoft/azure-pipelines-image-generation) repository, which contains the code that is used to provision the hosted agents. The expected environment variables are specified [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops#environment-variables).
 
 ## Installed software
 
