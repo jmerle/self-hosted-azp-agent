@@ -80,9 +80,9 @@ echo 'session required pam_limits.so' >> /etc/pam.d/common-session-noninteractiv
 
 # ./$SCRIPTS_DIR/installers/boost.sh
 
-set -a;
-source /etc/environment;
-set +a;
+while read -r env; do
+  export "$env";
+done < /etc/environment
 
 cat $METADATA_FILE
 
