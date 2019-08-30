@@ -80,6 +80,10 @@ echo 'session required pam_limits.so' >> /etc/pam.d/common-session-noninteractiv
 
 # ./$SCRIPTS_DIR/installers/boost.sh
 
+set -a;
+source /etc/environment;
+set +a;
+
 cat $METADATA_FILE
 
 rm -rf azure-pipelines-image-generation
