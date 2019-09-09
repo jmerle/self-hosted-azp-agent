@@ -33,7 +33,7 @@ echo 'session required pam_limits.so' >> /etc/pam.d/common-session-noninteractiv
 ./$SCRIPTS_DIR/installers/1604/basic.sh
 # ./$SCRIPTS_DIR/installers/aws.sh
 ./$SCRIPTS_DIR/installers/build-essential.sh
-# ./$SCRIPTS_DIR/installers/clang.sh
+./$SCRIPTS_DIR/installers/clang.sh
 ./$SCRIPTS_DIR/installers/cmake.sh
 # ./$SCRIPTS_DIR/installers/docker-compose.sh
 # ./$SCRIPTS_DIR/installers/docker-moby.sh
@@ -41,7 +41,7 @@ echo 'session required pam_limits.so' >> /etc/pam.d/common-session-noninteractiv
 # ./$SCRIPTS_DIR/installers/1604/dotnetcore-sdk.sh
 # ./$SCRIPTS_DIR/installers/erlang.sh
 # ./$SCRIPTS_DIR/installers/firefox.sh
-# ./$SCRIPTS_DIR/installers/gcc.sh
+./$SCRIPTS_DIR/installers/gcc.sh
 ./$SCRIPTS_DIR/installers/git.sh
 # ./$SCRIPTS_DIR/installers/1604/go.sh
 ./$SCRIPTS_DIR/installers/google-chrome.sh

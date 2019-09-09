@@ -31,7 +31,9 @@ The following software is installed in the image:
   - zip
   - tzdata
 - build-essential
+- Clang 6.0 (clang version 6.0.1-svn334776-1~exp1~20190309042730.123 (branches/release_60))
 - CMake (cmake version 3.12.4)
+- GNU C++ 7.4.0
 - Git (2.23.0)
 - Git Large File Storage (LFS) (2.8.0)
 - Google Chrome (Google Chrome 76.0.3809.132 )
@@ -41,7 +43,7 @@ The following software is installed in the image:
 - Azul Zulu OpenJDK (11) (openjdk version "11.0.4" 2019-07-16 LTS)
 - Azul Zulu OpenJDK (12) (openjdk version "12.0.2" 2019-07-16)
 - Ant (Apache Ant(TM) version 1.9.6 compiled on July 20 2018)
-- Gradle 5.6.1
+- Gradle 5.6.2
 - Maven (Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z))
 - Node.js (v10.16.3)
 - Bower (1.8.8)
@@ -52,7 +54,7 @@ Local version: Unknown)
 - Parcel (1.12.3)
 - TypeScript (Version 3.6.2)
 - Webpack (4.39.3)
-- Webpack CLI (3.3.7)
+- Webpack CLI (3.3.8)
 - Yarn (1.17.3)
 - Python (Python 2.7.12)
 - pip (pip 8.1.1 from /usr/lib/python2.7/dist-packages (python 2.7))
