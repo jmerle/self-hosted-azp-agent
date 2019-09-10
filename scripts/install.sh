@@ -38,7 +38,7 @@ echo 'session required pam_limits.so' >> /etc/pam.d/common-session-noninteractiv
 # ./$SCRIPTS_DIR/installers/docker-compose.sh
 # ./$SCRIPTS_DIR/installers/docker-moby.sh
 # ./$SCRIPTS_DIR/installers/docker.sh
-# ./$SCRIPTS_DIR/installers/1604/dotnetcore-sdk.sh
+./$SCRIPTS_DIR/installers/1604/dotnetcore-sdk.sh
 # ./$SCRIPTS_DIR/installers/erlang.sh
 # ./$SCRIPTS_DIR/installers/firefox.sh
 ./$SCRIPTS_DIR/installers/gcc.sh

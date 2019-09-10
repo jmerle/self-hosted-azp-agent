@@ -33,6 +33,9 @@ The following software is installed in the image:
 - build-essential
 - Clang 6.0 (clang version 6.0.1-svn334776-1~exp1~20190309042730.123 (branches/release_60))
 - CMake (cmake version 3.12.4)
+- .NET Core SDK 2.2.105
+- .NET Core SDK 2.1.505
+- .NET Core SDK 2.0.3
 - GNU C++ 7.4.0
 - Git (2.23.0)
 - Git Large File Storage (LFS) (2.8.0)
