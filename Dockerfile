@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -12,7 +12,8 @@ RUN apt-get update \
     wget \
     rsync \
     libunwind8 \
-    libicu55
+    gpg-agent \
+    dirmngr
 
 RUN git config --global user.email "dummy@example.com" \
     && git config --global user.name "self-hosted-azp-agent"
